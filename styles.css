@@ -8,18 +8,17 @@ header {
     justify-content: space-between;
     background-color: #1f2937;
     color: whitesmoke;
+    padding: 18px;
 }
 .left {
     display: flex;
-    justify-content: space-between;
     gap: 8px;
-    padding: 8px;
+    padding: 0;
 }
 .right {
     display: flex;
-    justify-content: space-between;
     gap: 8px;
-    padding: 8px;
+    padding: 0;
     margin: 0;
 }
 li {
