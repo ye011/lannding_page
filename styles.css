@@ -59,9 +59,10 @@ main {
     border: none;
     border-radius: 6px;
     width: 20%;
-    height: 10%;
+    height: 15%;
     color: #f9faf8;
     font-weight: 800;
+    font-size: 18px;
 }
 .cool-picture {
     width: 100%;
@@ -135,4 +136,30 @@ blockquote cite {
     font-size: 21px;
     font-weight: 700;
     text-align: end;
+}
+.signup {
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin: 64px auto;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    max-width: 780px;
+    gap: 16px;
+}
+.signup-text h3,p{
+    margin: 0;
+    padding: 0;
+}
+.signup-btn {
+    background-color: #3882f6;
+    border: 3px solid #f9faf8;
+    color: #f9faf8;
+    border-radius: 6px;
+    font-weight: 700;
+    min-height: 36px;
+    min-width: 110px;
+    align-self: center;
+    font-size: 18px;
 }
