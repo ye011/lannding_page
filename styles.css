@@ -163,3 +163,9 @@ blockquote cite {
     align-self: center;
     font-size: 18px;
 }
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 28px;
+}
