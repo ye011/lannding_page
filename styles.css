@@ -94,7 +94,7 @@ main p {
 h2 {
     text-align: center;
     font-size: 36px;
-    color: #1f2037;
+    color: #1f2937;
     font-weight: 900;
 }
 .info-container {
@@ -114,4 +114,25 @@ h2 {
     padding: 0;
     margin: 0;
     max-width: 160px;
+}
+.quote {
+    background-color: #e5e7eb;
+    padding: 64px;
+    display: flex;
+    justify-content: center;
+}
+blockquote {
+    max-width: 720px;
+}
+blockquote p {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    margin: 0;
+}
+blockquote cite {
+    display: block;
+    font-size: 21px;
+    font-weight: 700;
+    text-align: end;
 }
